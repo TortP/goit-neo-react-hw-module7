@@ -1,0 +1,43 @@
+.form {
+  margin-bottom: 24px;
+}
+
+.group {
+  margin-bottom: 12px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.addButton {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.addButton:hover {
+  background-color: #43a047;
+}
+
+.addButton:disabled {
+  opacity: 0.3;
+  cursor: wait;
+}
+
+.error {
+  font-size: 12px;
+  color: red;
+  margin-top: 4px;
+}
